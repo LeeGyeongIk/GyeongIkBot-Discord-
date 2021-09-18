@@ -7,8 +7,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from discord.utils import get
 from discord import FFmpegPCMAudio
-import asyncio
-import time
 import os
 
 bot = commands.Bot(command_prefix='!')
@@ -460,5 +458,5 @@ async def on_reaction_add(reaction, users):
             elif str(reaction.emoji) == '\U0001F4DD':
                 await reaction.message.channel.send("플레이리스트가 나오면 생길 기능이에요.")
 
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 bot.run(access_token)
