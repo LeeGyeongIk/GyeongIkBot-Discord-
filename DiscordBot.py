@@ -459,4 +459,4 @@ async def on_reaction_add(reaction, users):
             elif str(reaction.emoji) == '\U0001F4DD':
                 await reaction.message.channel.send("플레이리스트가 나오면 생길 기능이에요.")
 
-bot.run('ODg4MzI1MjQ2OTU0OTMwMTc3.YURDWw.5aYg6VQl_uMI_genZboXv0DcVAI')
+bot.run('ODg4MzI1MjQ2OTU0OTMwMTc3.YURDWw.6qf9gHKm5zUAe-dh1FKabvhnCGA')
